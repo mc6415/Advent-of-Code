@@ -19,6 +19,7 @@ namespace Advent_of_Code
             day2.calculateRibbon();
 
             Console.WriteLine(dayHeader(3));
+            day3.workOutHouses();
 
             Console.ReadKey();
         }
