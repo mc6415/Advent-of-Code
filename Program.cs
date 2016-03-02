@@ -23,7 +23,11 @@ namespace Advent_of_Code
             day3.housesRobo();
 
             Console.WriteLine(dayHeader(4));
-            day4.findAnswer();
+            // Answer for day 4 takes a long time to compute, uncomment the line below to show it
+            //day4.findAnswer();
+
+            Console.WriteLine(dayHeader(5));
+            day5.howManyNice();
 
             Console.ReadKey();
         }
