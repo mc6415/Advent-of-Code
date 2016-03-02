@@ -20,6 +20,7 @@ namespace Advent_of_Code
 
             Console.WriteLine(dayHeader(3));
             day3.workOutHouses();
+            day3.housesRobo();
 
             Console.ReadKey();
         }
