@@ -22,6 +22,9 @@ namespace Advent_of_Code
             day3.workOutHouses();
             day3.housesRobo();
 
+            Console.WriteLine(dayHeader(4));
+            day4.findAnswer();
+
             Console.ReadKey();
         }
 
